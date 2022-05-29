@@ -1,24 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Home from "./Components/Admin/Admin_main"
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Aditi made this change.
-          Aditi made this change.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Home/>
     </div>
   );
 }
