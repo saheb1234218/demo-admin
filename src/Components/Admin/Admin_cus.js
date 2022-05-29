@@ -3,7 +3,7 @@ import Admin_main from './Admin_main'
 export default function Admin_cus() {
   return (
     <div className='container  my-4 p-4'>
-        <table class="table table-success table-striped table-hover shadow rounded">
+        <table class="table table-success table-striped table-hover shadow">
         <thead>
     <tr>
       <th scope="col">Id</th>
@@ -80,6 +80,22 @@ export default function Admin_cus() {
     </tr>
   </tbody>
 </table>
+
+<nav aria-label="..." className='my-5 d-flex justify-content-center'>
+  <ul class="pagination">
+    <li class="page-item disabled">
+      <a class="page-link">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item active" aria-current="page">
+      <a class="page-link" href="#">2</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
     </div>
   )
 }
