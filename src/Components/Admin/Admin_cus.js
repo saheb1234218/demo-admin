@@ -3,9 +3,9 @@ import Admin_main from './Admin_main'
 export default function Admin_cus() {
   return (
     <div className='container  my-4 p-4'>
-        <table class="table table-success table-striped table-hover shadow">
-        <thead>
-    <tr>
+        <table class="table  table-striped table-hover shadow">
+        <thead style={{backgroundColor:'#ff8533'}}>
+    <tr >
       <th scope="col">Id</th>
       <th scope="col">Name</th>
       <th scope="col">Email</th>
