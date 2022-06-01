@@ -6,7 +6,7 @@ export default function Admin_cus() {
         <table class="table  table-striped table-hover shadow">
         <thead style={{backgroundColor:'#ff8533'}}>
     <tr >
-      <th scope="col">Id</th>
+      <th scope="col">ID</th>
       <th scope="col">Name</th>
       <th scope="col">Email</th>
       <th scope="col">Phone</th>
