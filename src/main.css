@@ -3460,7 +3460,7 @@ textarea.form-control-lg {
 }
 
 .nav-item:hover{
-  background-color: #f7690a;
+  background-color: #f7690aec;
 }
 .nav-tabs {
   border-bottom: 1px solid #dee2e6;
@@ -6977,7 +6977,10 @@ background-color: white;
 .text-opacity-100 {
   --bs-text-opacity: 1;
 }
-
+.bg-table{
+  --bs-bg-opacity: 1;
+  background-color: rgb(255, 218, 185);
+}
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: #ffffff !important;

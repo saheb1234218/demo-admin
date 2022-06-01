@@ -1,0 +1,11 @@
+
+
+  .admin_image{
+        border: 1px solid black;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+  }
+  .navbar-text{
+      font-weight: 500;
+  }
