@@ -307,7 +307,9 @@ th {
   border-style: solid;
   border-width: 0;
 }
-
+tr{
+  text-align: center;
+}
 label {
   display: inline-block;
 }
@@ -1944,7 +1946,8 @@ progress {
   margin-bottom: 1rem;
   color: #212529;
   vertical-align: top;
-  border-color: #dee2e6;
+  border-color: #767a80;
+  box-shadow: 200px 0px 200px 0px rgb(250, 149, 55) inset;
 }
 .table > :not(caption) > * > * {
   padding: 0.5rem 0.5rem;
@@ -6980,6 +6983,10 @@ background-color: white;
 .bg-table{
   --bs-bg-opacity: 1;
   background-color: rgb(255, 218, 185);
+}
+.bg-green{
+  --bs-bg-opacity: 1;
+background-color: rgb(21, 187, 21);
 }
 .bg-primary {
   --bs-bg-opacity: 1;
