@@ -60,7 +60,7 @@ export default function Admin_main() {
           </ul>
         </div>
       </div>
-      <Admin_cus />
+      
     </div>
   )
 
