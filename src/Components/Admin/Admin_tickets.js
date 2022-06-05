@@ -4,7 +4,17 @@ export default function Admin_tickets() {
   return (
     <>
     <Nav/>
-    <div className='container  my-4 p-4'>
+    <nav class="navbar navbar-light" style={{backgroundColor: '#ff9933' }}>
+             <div class="container-fluid ">
+                <h2 class="ms-5">My Tickets</h2>
+            
+                 <form class="d-flex">
+                     <input class="form-control me-2" type="text" />
+                    <button class="btn btn-outline-primary bg-secondary" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+            </div>
+        </nav>
+    <div className='container-fluid  my-4 p-4'>
       
       <table class="table bg-table   table-responsive table-hover ">
         <thead style={{ backgroundColor: '#ff8533' }}>
