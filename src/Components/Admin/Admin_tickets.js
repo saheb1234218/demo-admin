@@ -1,7 +1,9 @@
 import React from 'react'
-
+import Nav from './Admin_main'
 export default function Admin_tickets() {
   return (
+    <>
+    <Nav/>
     <div className='container  my-4 p-4'>
       
       <table class="table bg-table   table-responsive table-hover ">
@@ -37,7 +39,8 @@ export default function Admin_tickets() {
             <td>Apurba Ganguly</td>
             <td>21/4/22</td>
             <td>Solved</td>
-            <td><button type="button" class="w-50 btn btn-green bg-green text-light">Resolved</button></td>
+            <td><button type="button" class="w-50 btn btn-greenlcs
+             bg-green text-light">Resolved</button></td>
           </tr>
           <tr>
             <th scope="row">1234</th>
@@ -98,5 +101,7 @@ export default function Admin_tickets() {
         </ul>
       </nav>
     </div>
+    </>
+    
     )
 }

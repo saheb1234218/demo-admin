@@ -3,6 +3,8 @@ import Admin_main from './Admin_main'
 import "./admin.css";
 export default function Admin_cus() {
   return (
+    <>
+    <Nav/>
     <div className='container  my-4 p-4'>
       
       <table class="table bg-table  table-responsive table-hover ">
@@ -99,5 +101,7 @@ export default function Admin_cus() {
         </ul>
       </nav>
     </div>
+    </>
+    
   )
 }
