@@ -1,6 +1,6 @@
 
 import './App.css';
-import Home from "./Components/Admin/Admin_dashboard"
+import Home from "./Components/Admin/Admin_tickets"
 function App() {
   return (
     <div className="App">

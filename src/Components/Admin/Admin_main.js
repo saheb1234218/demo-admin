@@ -1,6 +1,7 @@
 import React from 'react'
 import Admin_cus from './Admin_tickets'
 import App_icon from "../../images/App_logo.jpeg";
+import {Link} from "react-router-dom"
 import './admin.css'
 export default function Admin_main() {
   return (
@@ -36,20 +37,26 @@ export default function Admin_main() {
           <img src={App_icon} alt="" width="60" height="40" class="d-inline-block align-text-top" />
           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body my-5">
-          <ul class="nav flex-column text-light hover gap-3">
+        <div class="offcanvas-body my-1">
+          <ul class="nav flex-column text-light hover gap-3 text-center">
             <li class="nav-item nav-item-hover">
-              <a class="nav-link text-light" href="#"><h4>Dashboard</h4></a>
+              <a class="nav-link text-light" href="/"><h4>Dashboard</h4></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#"><h4>Customers</h4></a>
+              <a class="nav-link text-light" href="/customers"><h4>Customers</h4></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#"><h4>Housekeepers</h4></a>
+              <a class="nav-link text-light" href="/housekeepers"><h4>Housekeepers</h4></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="/bookings"><h4>Bookings</h4></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="/tickets"><h4>Tickets</h4></a>
             </li>
 
           </ul>
-          <ul class="nav my-4  flex-column text-light hover gap-3">
+          <ul class="nav my-4 text-center  flex-column text-light hover gap-3">
             <li class="nav-item">
               <a class="nav-link text-light" href="#"><h4>Profile</h4></a>
             </li>
