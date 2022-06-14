@@ -5,6 +5,7 @@ import Cus from "./Components/Admin/Admin_cus";
 import Dashboard from "./Components/Admin/Admin_dashboard";
 import Tickets from "./Components/Admin/Admin_tickets";
 import Booking from "./Components/Admin/Admin_book";
+import Adminprofile from './Components/Admin/Admin_profile'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import './main.css';
@@ -16,9 +17,10 @@ root.render(
 <BrowserRouter>
       <Routes>
         <Route path="/" element={<Dashboard />}/>
-        <Route path="/customers" element={<Cus />}/>
-        <Route path="/tickets" element={<Tickets />}/>
-        <Route path="/bookings" element={<Booking />}/>
+        <Route path="/admin/customers" element={<Cus />}/>
+        <Route path="/admin/tickets" element={<Tickets />}/>
+        <Route path="/admin/bookings" element={<Booking />}/>
+        <Route path="/admin/profile" element={<Adminprofile />}/>
         
       </Routes>
     </BrowserRouter>    

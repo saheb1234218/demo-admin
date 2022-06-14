@@ -39,28 +39,36 @@ export default function Admin_main() {
         </div>
         <div class="offcanvas-body my-1">
           <ul class="nav flex-column text-light hover gap-3 text-center">
-            <li class="nav-item nav-item-hover">
+            <li class="nav-item nav-item-hover flex-row d-flex justify-content-left">
+            <i className='bi-bar-chart-fill' style={{ fontSize: '30px' }} type="button" ></i>
               <a class="nav-link text-light" href="/"><h4>Dashboard</h4></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="/customers"><h4>Customers</h4></a>
+            <li class="nav-item  flex-row d-flex justify-content-left">
+            <i className='bi-person-fill' style={{ fontSize: '30px' }} type="button" ></i>
+              <a class="nav-link text-light" href="/admin/customers"><h4>Customers</h4></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="/housekeepers"><h4>Housekeepers</h4></a>
+            <li class="nav-item flex-row d-flex justify-content-left">
+            <i className='bi-bag-check-fill' style={{ fontSize: '30px' }} type="button" ></i>
+              <a class="nav-link text-light" href="/admin/housekeepers"><h4>Housekeepers</h4></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="/bookings"><h4>Bookings</h4></a>
+            <li class="nav-item flex-row d-flex justify-content-left">
+            <i className='bi-box-arrow-in-right' style={{ fontSize: '30px' }} type="button" ></i>
+              <a class="nav-link text-light" href="/admin/bookings"><h4>Bookings</h4></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="/tickets"><h4>Tickets</h4></a>
+            <li class="nav-item flex-row d-flex justify-content-left">
+            <i className='bi-ticket-detailed' style={{ fontSize: '30px' }} type="button" ></i>
+              <a class="nav-link text-light" href="/admin/tickets"><h4>Tickets</h4></a>
             </li>
 
           </ul>
           <ul class="nav my-4 text-center  flex-column text-light hover gap-3">
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#"><h4>Profile</h4></a>
+            <li class="nav-item flex-row d-flex justify-content-left">
+            <i className='bi-person-fill' style={{ fontSize: '30px' }} type="button" ></i>
+            
+              <a class="nav-link text-light" href="/admin/profile"><h4>Profile</h4></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item flex-row d-flex justify-content-left">
+            <i className='bi-box-arrow-in-left' style={{ fontSize: '30px' }} type="button" ></i>
               <a class="nav-link text-light" href="#"><h4>Logout</h4></a>
             </li>
 
