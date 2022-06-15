@@ -6,7 +6,7 @@ function Admin_book() {
         
         <nav class="navbar navbar-light" style={{backgroundColor: '#ff9933' }}>
              <div class="container-fluid ">
-                <h1 class="ms-5">Bookings</h1>
+                <h1 class="ms-5">Bookings NEW</h1>
             
                  <form class="d-flex">
                      <input class="form-control me-2" type="text" />
