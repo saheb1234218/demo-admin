@@ -32,7 +32,7 @@ export default function Admin_main() {
 
 
       <div class="offcanvas offcanvas-start bg-sidebar" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
-        <div class="offcanvas-header">
+        <div class="offcanvas-header bg-topbar">
           <h5 class="offcanvas-title text-light" id="offcanvasWithBackdropLabel">Manage My House</h5>
           <img src={App_icon} alt="" width="60" height="40" class="d-inline-block align-text-top" />
           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
