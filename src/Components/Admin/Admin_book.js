@@ -2,15 +2,14 @@ import Nav from './Admin_main'
 function Admin_book() {
     return ( 
         <>
-        <Nav/>
-        
+        <Nav/>   
         <nav class="navbar navbar-light" style={{backgroundColor: '#ff9933' }}>
              <div class="container-fluid ">
-                <h1 class="ms-5">Bookings NEW</h1>
+                <h1 class="ms-5">Bookings</h1>
             
                  <form class="d-flex">
                      <input class="form-control me-2" type="text" />
-                    <button class="btn btn-outline-primary bg-secondary" type="submit"><i class="bi bi-search"></i></button>
+                    <button class="btn btn-outline-primary bg-secondary" href="/admin/bookings/view" type="submit"><i class="bi bi-search"></i></button>
                 </form>
             </div>
         </nav>

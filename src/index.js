@@ -5,7 +5,10 @@ import Cus from "./Components/Admin/Admin_cus";
 import Dashboard from "./Components/Admin/Admin_dashboard";
 import Tickets from "./Components/Admin/Admin_tickets";
 import Booking from "./Components/Admin/Admin_book";
-import Adminprofile from './Components/Admin/Admin_profile'
+import Views from "./Components/Admin/Admin_bookView";
+import TicketView from "./Components/Admin/Ad_TicketView";
+import Adminprofile from './Components/Admin/Admin_profile';
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import './main.css';
@@ -21,7 +24,9 @@ root.render(
         <Route path="/admin/tickets" element={<Tickets />}/>
         <Route path="/admin/bookings" element={<Booking />}/>
         <Route path="/admin/profile" element={<Adminprofile />}/>
-        
+        <Route path="/admin/views" element={<Views />}/>
+        <Route path="/admin/ticketViews" element={<TicketView />}/>
+
       </Routes>
     </BrowserRouter>    
   
