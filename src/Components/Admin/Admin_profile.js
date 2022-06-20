@@ -24,7 +24,7 @@ export default function Admin_profile() {
                  
                   <ul >
                   <div>
-                     <li className='d-flex flex-row justify-content-between m-2'>
+                     <li className='d-flex flex-row justify-content-between m-2 '>
                        <h5>Name:</h5>
                        <input disabled={makedisable} type="text" className="form-control m-2" id="hkName" placeholder="Admin User"/>
                     </li>
