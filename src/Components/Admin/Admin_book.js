@@ -9,7 +9,7 @@ function Admin_book() {
             
                  <form class="d-flex">
                      <input class="form-control me-2" type="text" />
-                    <button class="btn btn-outline-primary bg-secondary" href="/admin/bookings/view" type="submit"><i class="bi bi-search"></i></button>
+                    <button class="btn btn-outline-primary bg-secondary" type="submit"><i class="bi bi-search"></i></button>
                 </form>
             </div>
         </nav>

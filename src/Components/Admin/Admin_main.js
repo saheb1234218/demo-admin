@@ -85,6 +85,18 @@ export default function Admin_main() {
               <a class="nav-link text-light" href="/admin/ticketViews"><h4>TicketViews</h4></a>
             </li> 
 
+            <li class="nav-item flex-row d-flex justify-content-left">
+            <i className='bi-person-fill' style={{ fontSize: '30px' }} type="button" ></i>
+            
+              <a class="nav-link text-light" href="/admin/houseList"><h4>HouseList</h4></a>
+            </li> 
+
+            <li class="nav-item flex-row d-flex justify-content-left">
+            <i className='bi-person-fill' style={{ fontSize: '30px' }} type="button" ></i>
+            
+              <a class="nav-link text-light" href="/admin/houseView"><h4>HouseView</h4></a>
+            </li> 
+
           </ul>
         </div>
       </div>

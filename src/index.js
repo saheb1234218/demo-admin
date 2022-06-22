@@ -7,6 +7,8 @@ import Tickets from "./Components/Admin/Admin_tickets";
 import Booking from "./Components/Admin/Admin_book";
 import Views from "./Components/Admin/Admin_bookView";
 import TicketView from "./Components/Admin/Ad_TicketView";
+import HouseList from "./Components/Admin/Ad_houseList";
+import HouseView from "./Components/Admin/Ad_houseView"
 import Adminprofile from './Components/Admin/Admin_profile';
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -26,7 +28,8 @@ root.render(
         <Route path="/admin/profile" element={<Adminprofile />}/>
         <Route path="/admin/views" element={<Views />}/>
         <Route path="/admin/ticketViews" element={<TicketView />}/>
-
+        <Route path="/admin/houseList" element={<HouseList />}/>
+        <Route path="/admin/houseView" element={<HouseView />}/>
       </Routes>
     </BrowserRouter>    
   
